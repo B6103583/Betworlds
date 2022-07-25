@@ -1,16 +1,16 @@
-import { Button, Modal } from 'antd';
-import React, { useState } from 'react';
-import Image from "next/image";
 import img from "@../../../public/image/articles/art11.png";
-import lotto from "@../../../public/image/articles/lottery/lotto.png";
-import th from "@../../../public/image/articles/lottery/th-looto.png";
-import laos from "@../../../public/image/articles/lottery/laos-lotto.png";
-import malay from "@../../../public/image/articles/lottery/malay-lotto.png";
 import hanoi from "@../../../public/image/articles/lottery/hanoi-lotto.png";
-import yege from "@../../../public/image/articles/lottery/yege-lotto.png";
-import trade from "@../../../public/image/articles/lottery/trade.png";
+import laos from "@../../../public/image/articles/lottery/laos-lotto.png";
+import lotto from "@../../../public/image/articles/lottery/lotto.png";
+import malay from "@../../../public/image/articles/lottery/malay-lotto.png";
 import step1 from "@../../../public/image/articles/lottery/step1.png";
 import step2 from "@../../../public/image/articles/lottery/step2.png";
+import th from "@../../../public/image/articles/lottery/th-looto.png";
+import trade from "@../../../public/image/articles/lottery/trade.png";
+import yege from "@../../../public/image/articles/lottery/yege-lotto.png";
+import { Modal } from 'antd';
+import Image from "next/image";
+import { useState } from 'react';
 
 interface CardProps {
   title: string;

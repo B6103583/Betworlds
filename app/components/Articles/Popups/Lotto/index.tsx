@@ -1,9 +1,9 @@
-import { Button, Modal } from 'antd';
-import React, { useState } from 'react';
-import Image from "next/image";
 import img from "@../../../public/image/articles/art4.png";
 import step from "@../../../public/image/articles/lotto/step.jpg";
 import step2 from "@../../../public/image/articles/lotto/step2.jpg";
+import { Modal } from 'antd';
+import Image from "next/image";
+import { useState } from 'react';
 
 function Lotto() {
   const [visible, setVisible] = useState(false);

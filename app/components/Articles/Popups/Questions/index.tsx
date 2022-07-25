@@ -1,7 +1,7 @@
-import { Button, Modal } from 'antd';
-import React, { useState } from 'react';
-import Image from "next/image";
 import img from "@../../../public/image/articles/art6.png";
+import { Modal } from 'antd';
+import Image from "next/image";
+import { useState } from 'react';
 
 function Tips() {
   const [visible, setVisible] = useState(false);

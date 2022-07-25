@@ -1,15 +1,15 @@
-import { Button, Modal } from 'antd';
-import React, { useState } from 'react';
-import Image from "next/image";
 import img from "@../../../public/image/articles/art10.png";
+import badmin from "@../../../public/image/articles/sports/badmin.png";
 import ball from "@../../../public/image/articles/sports/ball.png";
 import bas from "@../../../public/image/articles/sports/bas.png";
 import boxing from "@../../../public/image/articles/sports/boxing.png";
-import badmin from "@../../../public/image/articles/sports/badmin.png";
 import hand from "@../../../public/image/articles/sports/hand.png";
 import hokies from "@../../../public/image/articles/sports/hokies.png";
 import tabletennis from "@../../../public/image/articles/sports/table-tennis.png";
 import volleybal from "@../../../public/image/articles/sports/volleybal.png";
+import { Modal } from 'antd';
+import Image from "next/image";
+import { useState } from 'react';
 
 interface CardProps {
   title: string;

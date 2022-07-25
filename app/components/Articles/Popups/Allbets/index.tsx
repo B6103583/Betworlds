@@ -1,13 +1,13 @@
-import { Button, Modal } from 'antd';
-import React, { useState } from 'react';
-import Image from "next/image";
-import img from "@../../../public/image/articles/art9.png";
-import redyell from "@../../../public/image/articles/allbets/red-yellow.png";
 import beans from "@../../../public/image/articles/allbets/beans.png";
-import many from "@../../../public/image/articles/allbets/many.png";
-import hilo from "@../../../public/image/articles/allbets/hilo.png";
-import pok from "@../../../public/image/articles/allbets/pokrt.png";
 import tiger from "@../../../public/image/articles/allbets/dragon-tiger.png";
+import hilo from "@../../../public/image/articles/allbets/hilo.png";
+import many from "@../../../public/image/articles/allbets/many.png";
+import pok from "@../../../public/image/articles/allbets/pokrt.png";
+import redyell from "@../../../public/image/articles/allbets/red-yellow.png";
+import img from "@../../../public/image/articles/art9.png";
+import { Modal } from 'antd';
+import Image from "next/image";
+import { useState } from 'react';
 
 function Allbets() {
   const [visible, setVisible] = useState(false);

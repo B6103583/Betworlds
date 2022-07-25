@@ -1,9 +1,9 @@
-import { Button, Modal } from 'antd';
-import React, { useState } from 'react';
-import Image from "next/image";
 import img from "@../../../public/image/articles/art12.png";
 import ball from "@../../../public/image/articles/ball12/ball.png";
 import rate from "@../../../public/image/articles/ball12/rate.png";
+import { Modal } from 'antd';
+import Image from "next/image";
+import { useState } from 'react';
 
 interface CardProps {
   title: string;

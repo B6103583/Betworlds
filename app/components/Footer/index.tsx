@@ -1,7 +1,5 @@
-import React from 'react'
-import Image from "next/image";
 import LogoImage from "@../../../public/image/logo.png";
-import qr from "@../../../public/image/qr.jpg";
+import Image from "next/image";
 
 function Footer() {
   return (

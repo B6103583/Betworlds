@@ -1,10 +1,6 @@
-import React, { useState } from "react";
-import Image from "next/image";
 import LogoImage from "@../../../public/image/logo.png";
-import { MenuOutlined } from "@ant-design/icons";
-import { Drawer } from "antd";
 import "antd/dist/antd.css";
-import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   return (
