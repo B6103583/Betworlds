@@ -8,7 +8,7 @@ on:
       - "app/**"
       - ".github/workflows/dev-jeena.yaml"
     branches:
-      - develop
+      - main
 jobs:
   deploy:
     name: deploy
