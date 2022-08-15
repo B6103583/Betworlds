@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art7.png";
+import img from "@../../../public/image/articles/art7.jpg";
 import tips from "@../../../public/image/articles/tips.png";
 import { Modal } from 'antd';
 import Image from "next/image";

@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art10.png";
+import img from "@../../../public/image/articles/art10.jpg";
 import badmin from "@../../../public/image/articles/sports/badmin.png";
 import ball from "@../../../public/image/articles/sports/ball.png";
 import bas from "@../../../public/image/articles/sports/bas.png";

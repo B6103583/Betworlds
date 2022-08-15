@@ -4,7 +4,7 @@ import hilo from "@../../../public/image/articles/allbets/hilo.png";
 import many from "@../../../public/image/articles/allbets/many.png";
 import pok from "@../../../public/image/articles/allbets/pokrt.png";
 import redyell from "@../../../public/image/articles/allbets/red-yellow.png";
-import img from "@../../../public/image/articles/art9.png";
+import img from "@../../../public/image/articles/art9.jpg";
 import { Modal } from 'antd';
 import Image from "next/image";
 import { useState } from 'react';
@@ -67,7 +67,7 @@ function Allbets() {
                 <h1 className='text-white text-[16px] indent-8'>เกมส์กำถั่วใน Betworlds888 นั้นเป็นอีกเกมส์ที่ได้รับความนิยม โดยให้ทายผลที่ออกมาว่าจะออกเลขไหนระหว่าง 4 เลข คือ 1 2 3 และ 4 ซึ่งเกมส์กำถั่วนี้จะทายผลมากสุด 3 ตัวใน 1 ตา การเล่นกำถั่วขั้นต่ำเพียง 20 บาท</h1>
               </div>
 
-              <div className='flex flex-col md:flexrow gap-5 justify-between'>
+              <div className='flex flex-col  md:flex-row gap-5 justify-between'>
                 <div className='md:w-2/5 '>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px]'>โดยเกมส์กำถั่วมีอัตราการจ่ายดังนี้<br/>
@@ -197,7 +197,7 @@ function Allbets() {
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">แทงบอล คือ</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">สรุป ในการเล่นเกมส์กับทาง Betworlds888</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ทั้งหมดนี้ คุณลูกค้าจะได้รับความเพลิดเพลินบันเทิงสนุกสนานครบวงจร จบในเว็บเดียว และคุณจะได้รับบริการอย่างเป็นมืออาชีพตลอด 24 ชั่วโมง เพราะเราคือเว็บการพนันออนไลน์ดีที่สุด 2022</h1>

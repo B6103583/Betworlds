@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from "next/image";
 import qr from "@../../../public/image/qr.jpg";
-import friend from "@../../../public/image/pro_friend.png";
-import newplayer from "@../../../public/image/pro_newplayer.png";
+import friend from "@../../../public/image/pro_friend.jpg";
+import newplayer from "@../../../public/image/pro_newuser.jpg";
 
 function Promotion() {
   return (

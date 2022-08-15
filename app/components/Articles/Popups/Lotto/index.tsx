@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art4.png";
+import img from "@../../../public/image/articles/art4.jpg";
 import step from "@../../../public/image/articles/lotto/step.jpg";
 import step2 from "@../../../public/image/articles/lotto/step2.jpg";
 import { Modal } from 'antd';
@@ -43,15 +43,14 @@ function Lotto() {
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
                 <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ขั้นตอนการแทงหวยออนไลน์กับ Betworlds888</div>
               </div>
-              <Image src={step} alt="LogoImage" />
-              <Image src={step2} alt="LogoImage" />
+              {/* <Image src={step} alt="LogoImage" />
+              <Image src={step2} alt="LogoImage" /> */}
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px]'>
-                จากภาพ<br/>
                   1. เลือก ประเภท ที่ต้องการแทง เช่น แทง3ตัวบน กด 3D(3ตัว) เลือก 3 ตัวบน<br/>
                   2. กรอกเลข กดเลือก -ใส่เลข-<br/>
                   3. ระบุตัวเลข ที่ต้องการเดิมพัน<br/>
-                  4. กดระบุยอด ที่ต้องการเดิมพัน แล้วกด -เดิมพัน- ตามภาพ ( หลังจาก กดเดิมพัน แล้วยังเลือกเลขอื่นๆได้เช่นกัน)<br/>
+                  4. กดระบุยอด ที่ต้องการเดิมพัน แล้วกด -เดิมพัน-  ( หลังจาก กดเดิมพัน แล้วยังเลือกเลขอื่นๆได้เช่นกัน)<br/>
                   5. ตรวจสอบเลขที่เดิมพัน เลขไหนไม่ต้องการ กดกากบาท ได้เพื่อลบตัวเลขนั้นออก<br/>
                   6. หลังจากการตรวจสอบเเล้ว กด -เดิมพัน- เพื่อยืนยันการแทงอีกครั้ง</h1>
               </div>

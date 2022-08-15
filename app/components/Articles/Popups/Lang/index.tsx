@@ -1,7 +1,7 @@
 import { Modal } from 'antd';
 import React, { useState } from 'react';
 import Image from "next/image";
-import img from "@../../../public/image/articles/art2.png";
+import img from "@../../../public/image/articles/art2.jpg";
 import step1 from "@../../../public/image/articles/lang/step1.png";
 import step2 from "@../../../public/image/articles/lang/step2.png";
 import step3 from "@../../../public/image/articles/lang/step3.png";

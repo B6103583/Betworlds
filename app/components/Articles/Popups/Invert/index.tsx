@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art1.png";
+import img from "@../../../public/image/articles/art1.jpg";
 import Image from "next/image";
 import Link from 'next/link';
 
@@ -10,7 +10,7 @@ function Invert() {
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
-        <Link href="">
+        <Link href="https://lin.ee/oLFSKPm">
           <a><h1 className="text-center text-sm sm:text-xl lg:text-xl font-semibold text-[#FAC54C] cursor-pointer hover:text-white hover:underline" >ลงทุนกับ Betworlds888</h1></a>
         </Link>
       </div>

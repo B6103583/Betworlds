@@ -1,7 +1,7 @@
 import { Modal } from 'antd';
 import React, { useState } from 'react';
 import Image from "next/image";
-import img from "@../../../public/image/articles/art3.png";
+import img from "@../../../public/image/articles/art3.jpg";
 import ex from "@../../../public/image/articles/history/ex.png";
 import ex2 from "@../../../public/image/articles/history/ex2.png";
 
@@ -40,13 +40,13 @@ function History() {
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
                 <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ตรวจประวัติการเดิมพัน</div>
               </div>
-              <Image src={ex} alt="LogoImage" />
+              {/* <Image src={ex} alt="LogoImage" /> */}
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px]'>
                   1. กดตรง ประวติการเล่น<br/>
                   2. เลือก หมวดที่จะดู กดตรงวันที่<br/>
                   3. เลือก รายการที่จะดู กดตรงวันที่<br/>
-                  4. เลือก ดูรายการ ที่แทงได้เลย ( ตามภาพ )</h1>
+                  4. เลือก ดูรายการ ที่แทงได้เลย </h1>
               </div>
             </div>
 
@@ -56,11 +56,11 @@ function History() {
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
                 <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ตรวจการเดิมพันค้าง/บิล</div>
               </div>
-              <Image src={ex2} alt="LogoImage" />
+              {/* <Image src={ex2} alt="LogoImage" /> */}
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px]'>
                   1. หลังเข้าหน้าแทงบอลเเล้วมุมซ้ายบนกดคำว่ารายการ<br/>
-                  2. จะแสดงลงรายการที่บิลยังไม่ตัด (ตามรูป)<br/></h1>
+                  2. จะแสดงลงรายการที่บิลยังไม่ตัด<br/></h1>
               </div>
             </div>
 

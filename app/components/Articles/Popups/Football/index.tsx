@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art8.png";
+import img from "@../../../public/image/articles/art8.jpg";
 import { Modal } from 'antd';
 import Image from "next/image";
 import { useState } from 'react';

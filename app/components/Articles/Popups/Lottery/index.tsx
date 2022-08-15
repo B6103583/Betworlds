@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art11.png";
+import img from "@../../../public/image/articles/art11.jpg";
 import hanoi from "@../../../public/image/articles/lottery/hanoi-lotto.png";
 import laos from "@../../../public/image/articles/lottery/laos-lotto.png";
 import lotto from "@../../../public/image/articles/lottery/lotto.png";

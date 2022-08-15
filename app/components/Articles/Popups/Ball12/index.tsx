@@ -1,4 +1,4 @@
-import img from "@../../../public/image/articles/art12.png";
+import img from "@../../../public/image/articles/art12.jpg";
 import ball from "@../../../public/image/articles/ball12/ball.png";
 import rate from "@../../../public/image/articles/ball12/rate.png";
 import { Modal } from 'antd';
@@ -85,7 +85,7 @@ function Ball12() {
             </div>
 
             {/* เทคนิคการทำกำไรจากบอลเต็ง 1 */}
-            <div className="flex flex-col w-full gap-8">
+            <div className="flex flex-col w-full gap-8 pb-2">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
                 <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เทคนิคการทำกำไรจากบอลเต็ง</div>
               </div>
@@ -119,14 +119,6 @@ function Ball12() {
                คุณก็ยังที่จะเลือกแทงทางแมนฯ ยูไนเต็ดอยู่ดี ซึ่งนั่นอาจจะทำให้คุณประสบความล้มเหลวได้ในไม่ช้า โดยแม้ว่าทีมที่มาเยือนจะเป็นทีมใหญ่หรือฟอร์มกำลังมาแรงก็ไม่ต้องกังวล
                มากเรตราคาที่ออกมามักจะเอื้อไปทางเจ้าบ้านอยู่แล้วซึ่งสถิติบ่งชี้ออกมาว่าการเล่นเจ้าบ้านจะมีอัตราการทำกำไรอยู่ที่สูงถึง 65 เปอเซ็นต์กันเลยทีเดียว"/>
 
-            </div>
-
-            {/* เทคนิคการทำกำไรจากบอลเต็ง 2 */}
-            <div className="flex flex-col w-full gap-5 pb-10">
-              <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เทคนิคการทำกำไรจากบอลเต็ง</div>
-              </div>
-              <Image src={rate} alt="LogoImage" />
             </div>
 
             

@@ -1,8 +1,8 @@
-import img from "@../../../public/image/articles/art5.png";
-import step1 from "@../../../public/image/articles/lang/step1.png";
-import step2 from "@../../../public/image/articles/lang/step2.png";
-import step3 from "@../../../public/image/articles/lang/step3.png";
-import step4 from "@../../../public/image/articles/lang/step4.png";
+import img from "@../../../public/image/articles/art5.jpg";
+import step1 from "@../../../public/image/articles/Password/step1.png";
+import step2 from "@../../../public/image/articles/Password/step2.png";
+import step3 from "@../../../public/image/articles/Password/step3.png";
+import step4 from "@../../../public/image/articles/Password/step4.png";
 import { Modal } from 'antd';
 import Image from "next/image";
 import { useState } from 'react';
